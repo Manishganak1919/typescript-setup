@@ -15,7 +15,7 @@ function findMaxWordinSent(str) {
             MaxWord += str[i];
         }
     }
-    // ✅ check last word
+    // check last word
     if (MaxWord.length > currLength) {
         ans = MaxWord;
     }
